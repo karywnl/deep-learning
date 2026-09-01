@@ -5,7 +5,7 @@
 \usepackage{array,booktabs}
 \usepackage{float}
 \usepackage{graphicx}
-\graphicspath{{../figures/}{figures/}{docs/submissions/figures/}}
+\graphicspath{{figures/}{../../lab1/submissions/figures/}{../../lab2/submissions/figures/}}
 \usepackage{fancyhdr}
 \usepackage[hidelinks]{hyperref}
 
@@ -135,7 +135,7 @@ Swish & $x\,\sigmoid(\beta x)$ & approximately $[-0.278,\infty)$ for $\beta=1$ \
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{Lab1/activation_functions.png}
+    \includegraphics[width=\textwidth]{activation_functions.png}
     \caption{Activation functions for the required $\beta$ and $\delta$ values.}
 \end{figure}
 
@@ -163,7 +163,7 @@ Swish & $\sigma(\beta x)+\beta x\sigma(\beta x)\bigl(1-\sigma(\beta x)\bigr)$ \\
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{Lab1/activation_derivatives.png}
+    \includegraphics[width=\textwidth]{activation_derivatives.png}
     \caption{Derivatives of the six activation functions.}
 \end{figure}
 
@@ -355,13 +355,13 @@ Training stopped after 86 epochs. The final training accuracy was $97.60\%$ and 
 \centering
 \begin{minipage}[t]{0.49\textwidth}
     \centering
-    \includegraphics[width=\linewidth]{Lab2/config1_error_vs_epoch.png}
+    \includegraphics[width=\linewidth]{config1_error_vs_epoch.png}
     \small (a) Training and validation error
 \end{minipage}
 \hfill
 \begin{minipage}[t]{0.49\textwidth}
     \centering
-    \includegraphics[width=\linewidth]{Lab2/config1_decision_boundary.png}
+    \includegraphics[width=\linewidth]{config1_decision_boundary.png}
     \small (b) Decision boundary
 \end{minipage}
 \caption{Results for the 6-4 configuration.}
@@ -375,13 +375,13 @@ Training stopped after 29 epochs. The final training accuracy was $98.13\%$ and 
 \centering
 \begin{minipage}[t]{0.49\textwidth}
     \centering
-    \includegraphics[width=\linewidth]{Lab2/config2_error_vs_epoch.png}
+    \includegraphics[width=\linewidth]{config2_error_vs_epoch.png}
     \small (a) Training and validation error
 \end{minipage}
 \hfill
 \begin{minipage}[t]{0.49\textwidth}
     \centering
-    \includegraphics[width=\linewidth]{Lab2/config2_decision_boundary.png}
+    \includegraphics[width=\linewidth]{config2_decision_boundary.png}
     \small (b) Decision boundary
 \end{minipage}
 \caption{Results for the 12-8 configuration.}
